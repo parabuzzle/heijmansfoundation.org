@@ -6,3 +6,83 @@
   background:#333;
   color: #fff;
 }
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+
+  color: red;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  background-image: url("/img/theater-education-blur.jpg");
+  background-color: #000000;
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  color: #fff;
+}
+
+#main {
+  margin-top: 20px;
+}
+
+.bio {
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img-center {
+  margin:auto;
+}
+
+.navbar-transparent {
+  background:none;
+  color: #fff;
+}
+
+.navbar-transparent .navbar-nav li a {
+  background:none;
+  color: #fff;
+}
+
+.navbar-transparent .navbar-nav li a:hover {
+  background:none;
+  color: red;
+}
+
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+
+@media (min-width: @screen-sm-min) {
+  .text-sm-left { text-align: left; }
+  .text-sm-right { text-align: right; }
+  .text-sm-center { text-align: center; }
+  .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-md-min) {
+  .text-md-left { text-align: left; }
+  .text-md-right { text-align: right; }
+  .text-md-center { text-align: center; }
+  .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: @screen-lg-min) {
+  .text-lg-left { text-align: left; }
+  .text-lg-right { text-align: right; }
+  .text-lg-center { text-align: center; }
+  .text-lg-justify { text-align: justify; }
+}
